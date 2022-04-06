@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614391952_29-p-temnii-fon-naruto-37.jpg);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    height: 30px;
+    margin-top: 100px;
+    background-color: rgb(223, 202, 202);
+    color: black;
+    font-size: 25px;
+}
+
+button {
+    max-width: 300px;
+    width: 100%;
+    background: rgb(223, 202, 202);
+    border-radius: 20px;
+    color: rgb(57, 42, 42);
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(223, 202, 202);
+    margin-top: 30px;
+}
